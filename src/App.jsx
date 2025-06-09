@@ -27,8 +27,11 @@ function App() {
   const [debouncedSearchTerm, setDecouncedSearchTerm] = useState("");
   const [trendingMovies, setTrendingMovies] = useState([]);
 
-  useDebounce(() => setDecouncedSearchTerm(searchTerm), 500, [searchTerm]);
+    // Debounce the search term to prevent making too many API requests
+    // by waiting for the user to stop typing for 500ms
 
+  useDebounce(() => setDecouncedSearchTerm(searchTerm), 500, [searchTerm]);
+  
   const fetchMovies = async (query = "") => {
     setIsLoading(true);
     setErrorMessage("");
