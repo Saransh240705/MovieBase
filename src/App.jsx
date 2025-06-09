@@ -11,7 +11,7 @@ const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 const API_OPTIONS = {
   method: "GET",
-  eaders: {
+  headers: {
     accept: "application/json",
     Authorization: `Bearer ${API_KEY}`,
   },
@@ -31,7 +31,7 @@ function App() {
     // by waiting for the user to stop typing for 500ms
 
   useDebounce(() => setDecouncedSearchTerm(searchTerm), 500, [searchTerm]);
-  
+
   const fetchMovies = async (query = "") => {
     setIsLoading(true);
     setErrorMessage("");
