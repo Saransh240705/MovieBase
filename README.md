@@ -4,7 +4,6 @@
 <h1>MOVIEBASE</h1>
 <p><em>Discover movies effortlessly, ignite your cinematic journey.</em></p>
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/Saransh240705/MovieBase?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Saransh240705/MovieBase?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Saransh240705/MovieBase?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 <p><em>Built with the tools and technologies:</em></p>
