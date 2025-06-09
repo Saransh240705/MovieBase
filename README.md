@@ -1,8 +1,12 @@
-<div id="top" class="">
 
 <div align="center" class="text-center">
 <h1>MOVIEBASE</h1>
 <p><em>Discover movies effortlessly, ignite your cinematic journey.</em></p>
+
+<a href="https://movie-base-gamma.vercel.app/">
+<p><strong>Live Demo</strong></p>
+<p><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-0080ff?style=flat&amp;logo=vercel&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;"></p>
+</a>
 
 <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Saransh240705/MovieBase?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Saransh240705/MovieBase?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
